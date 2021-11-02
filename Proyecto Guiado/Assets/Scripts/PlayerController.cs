@@ -12,8 +12,9 @@ public class PlayerController : MonoBehaviour
     Movement movement;
     Gun[] guns;
     //GameObject  player1, player2;
-    [SerializeField] Slider healthbar;
-    public void Hit(float force)
+    public Slider healthbar;
+
+    /*public void Hit(float force)
     {
         health -= force;
         healthbar.value = health;
@@ -21,7 +22,8 @@ public class PlayerController : MonoBehaviour
         {
             Destroy(gameObject);
         }
-    }  
+}*/
+
     void Start()
     {
 
